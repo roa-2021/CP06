@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: #EEEEEE;
+    color: #111111;
+    font-family: helvetica;
+}
+
+a {
+    color: #111111;
+}
+
+#app {
+    display: flex;
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+header {
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+}
+
+.list-container {
+    padding: 20px;
+    width: 300px;
+}
+
+.list-container h2 {
+    margin-top: 20px;
+}
+
+.list-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 0;
+
+}
+
+
+.action-container {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.action {
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+footer {
+    border-top: #ccc solid 1px;
+    padding: 20px;
+    color: #666;
+}
